@@ -1,0 +1,10 @@
+.wrapper {
+  max-width: 600px;
+  width: 100%;
+}
+
+.question {
+  color: rgba(0, 0, 0, 0.51);
+  font-weight: bold;
+  text-decoration: underline #7cdbc7 3px;
+}

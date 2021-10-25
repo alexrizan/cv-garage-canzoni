@@ -1,0 +1,43 @@
+.container {
+  display: flex;
+  align-content: center;
+  box-shadow: 0 3px 3px 0 rgb(0 0 0 / 14%), 0 1px 7px 0 rgb(0 0 0 / 12%), 0 3px 1px -1px rgb(0 0 0 / 20%);
+  margin: 5px;
+  border-radius: 5px;
+}
+
+.ava {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.text {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  user-select: none; /* Chrome, Edge, Opera and Firefox */
+  cursor: pointer;
+  transition: all 100ms ease-out;
+}
+
+
+.circleBadge {
+  position: absolute;
+  left: 50%;
+  text-align: center;
+  width: 25px;
+  height: 25px;
+  border: 1px solid #ee6e73;
+  border-radius: 20%;
+}
+
+@media screen and (max-width: 700px) {
+  .circleBadge {
+    left: 90%;
+  }
+}

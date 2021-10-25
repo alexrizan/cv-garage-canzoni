@@ -1,0 +1,27 @@
+image: node:latest
+
+cache:
+  paths:
+    - canzoni-api/node_modules/
+
+stages:
+  - production
+
+production:
+  type: deploy
+  stage: production
+  image: ruby:latest
+  script:
+    - apt-get update -qy
+    - apt-get install -y ruby-dev
+    - gem install dpl
+    - echo "Start deploy on heroku"
+    - cd "canzoni-api"
+    - dpl --provider=heroku --app=canzoni-garage-api --api-key=$HEROKU_API_KEY
+    - echo "Finish deploy"
+  only:
+    refs:
+      - master
+    changes:
+      - "*"
+      - "canzoni-api/**/*"

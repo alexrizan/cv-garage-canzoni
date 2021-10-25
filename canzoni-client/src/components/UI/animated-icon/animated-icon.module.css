@@ -1,0 +1,26 @@
+.rotateCenter {
+  animation: rotateCenter 2s ease-in-out infinite ;
+}
+
+@keyframes rotateCenter {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.flipHorizontalBottom {
+  animation: flipHorizontalBottom 0.4s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
+}
+
+@keyframes flipHorizontalBottom {
+  0% {
+    transform: rotateX(0);
+  }
+  100% {
+    transform: rotateX(-180deg);
+  }
+}
+

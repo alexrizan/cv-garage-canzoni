@@ -1,0 +1,23 @@
+.roundButtonSm {
+  height: 56px;
+  width: 56px;
+  border-radius: 50%;
+  text-align: center;
+  border-color: #ccddff;
+  cursor: pointer;
+  transition: 0.5s linear;
+}
+
+.pressed {
+  border-color: darkseagreen;
+  border-width: 10px;
+  transition: 0.5s linear;
+}
+
+.blocked {
+  background-color: rgb(198 198 198) !important
+}
+
+.blocked:hover {
+  background-color: rgb(198 198 198) !important
+}

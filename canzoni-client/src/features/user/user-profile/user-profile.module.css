@@ -1,0 +1,66 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttonWrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+  min-height: 200px;
+}
+
+.helloWrapper {
+  display: flex;
+  justify-content: space-between;
+  font-size: 2em;
+  margin-bottom: 20px;color: #7c7d7d;
+  border-bottom: 1px solid rgba(124, 125, 125, 0.32);
+  width: 100%;
+}
+
+.actionMenu {
+  display: flex;
+  flex-direction: row;
+}
+
+.roomActions {
+  width: 100%;
+  margin: 30px 0;
+  padding: 30px;
+  border: 3px solid #7c7d7d59;
+  border-radius: 20px;
+}
+
+@media screen and (max-width: 1000px){
+  .actionMenu  {
+    flex-wrap: wrap;
+  }
+}
+
+.logout {
+  cursor: pointer;
+  transition: transform .4s ease-out;
+  display: flex;
+}
+
+.logout:hover {
+  transform: scale(1.3, 1.3);
+}
+
+.logoutAgree {
+  border-radius: 50%;
+  background: #e6f6fb;
+  border: 3px solid rgba(124, 125, 125, 0.32);
+  color: #ee6e73;
+  height: 35px;
+  width: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  cursor: pointer;
+}

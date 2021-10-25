@@ -1,0 +1,23 @@
+.flipY-enter {
+  transform: rotateY(90deg);
+  opacity: 0;
+  perspective: 1000px;
+}
+
+.flipY-enter-active {
+  transform: rotateY(0deg);
+  opacity: 1;
+  transition: transform 500ms, opacity 300ms;
+}
+
+.flipY-exit {
+  position: absolute;
+  perspective: 1000px;
+  opacity: 1;
+}
+
+.flipY-exit-active {
+  opacity: 0;
+  transform: rotateY(180deg);
+  transition: transform 300ms, opacity 300ms;
+}

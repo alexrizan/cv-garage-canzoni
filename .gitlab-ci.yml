@@ -1,0 +1,5 @@
+stages:
+  - production
+
+include:
+  - '/canzoni-api/.gitlab-ci.yml'

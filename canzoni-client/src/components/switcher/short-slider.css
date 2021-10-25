@@ -1,0 +1,28 @@
+
+.shortSlide-enter,
+.shortSlide-exit {
+  transition: transform 500ms ease-out;
+}
+
+.shortSlide-enter {
+  transform: translateX(50%);
+}
+
+.shortSlide-enter.shortSlide-enter-active {
+  transform: translateX(0%);
+}
+
+.shortSlide-exit {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  transform: translateX(0%);
+  opacity: 1;
+}
+
+.shortSlide-exit-active {
+  transform: translateX(-10%);
+  opacity: 0;
+  transition: transform 1500ms, opacity 500ms;
+}

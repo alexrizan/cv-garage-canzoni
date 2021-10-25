@@ -1,0 +1,86 @@
+.youtubeContainer {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%;
+}
+
+.youtubeContainer iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  /*height: 100%;*/
+}
+
+.cardWrapper {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.closeButton {
+  width: 100%;
+  margin-bottom: 1em;
+}
+
+@media screen and (min-width: 1000px) {
+  .youtubeContainer {
+    height: 90%;
+  }
+
+  .youtubeContainer iframe {
+    height: 70%;
+  }
+}
+
+.pultWrapper {
+  position: absolute;
+  width: 100%;
+}
+
+.buttonsWrapper {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.header {
+  font-weight: bold;
+  font-size: 15px;
+  margin-bottom: 10px;
+  color: rgba(0, 0, 0, 0.61);
+}
+
+.buttonWithText {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.fsChild {
+  z-index: 1000000000;
+  position: absolute;
+  width: 100%;
+  top: 20%;
+}
+
+.fsContainer iframe {
+  height: 100%;
+}
+
+@media screen and (max-width: 999px) {
+  .pultWrapper {
+    top: 400px;
+  }
+  .fsChild {
+    top: 0;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .pultWrapper {
+    top: 640px;
+  }
+}

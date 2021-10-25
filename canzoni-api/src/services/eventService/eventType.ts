@@ -1,0 +1,8 @@
+export type ActionType =
+  | 'SONG_QUEUE_UPDATED'
+  | 'SONG_NEXT'
+  | 'PLAYER_PLAY'
+  | 'PLAYER_PAUSE'
+  | 'PLAYER_REPEAT'
+  | 'PLAYER_REPEAT_ALWAYS'
+  | 'PLAYER_SET_TIME'

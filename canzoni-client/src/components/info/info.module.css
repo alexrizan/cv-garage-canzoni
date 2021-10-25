@@ -1,0 +1,35 @@
+.container {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  align-items: center;
+  grid-gap: 20px;
+  width: 100%;
+  margin: 30px 0;
+  padding: 30px;
+  border-radius: 20px;
+  color: rgba(0, 0, 0, 0.51);
+  box-shadow: inset 0 0 8px 1px #96a1a4;
+}
+
+.header {
+  font-size: 1.5em;
+  font-weight: bold;
+  text-align: center;
+}
+
+.iconWrapper {
+
+}
+
+.bigIcon {
+  font-size: 4em;
+}
+
+.message {
+
+}
+
+.buttonWrapper {
+
+}

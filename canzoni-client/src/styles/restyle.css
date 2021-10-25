@@ -1,0 +1,11 @@
+.glass-green {
+  background-color: #8bd4ea36 !important;
+  color: #00000059 !important;
+  font-weight: bold !important;
+}
+
+.glass-green:hover {
+  background-color: #26a69a24 !important;
+  color: #2f4f4f;
+  font-weight: bold;
+}

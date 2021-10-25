@@ -1,0 +1,46 @@
+.pultWrapper {
+  position: absolute;
+  width: 100%;
+}
+
+.buttonsWrapper {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.buttonsWrapperStartHalf {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.buttonsWrapperEndHalf {
+  grid-column-start: 3;
+  grid-column-end: 5;
+}
+
+.header {
+  font-weight: bold;
+  font-size: 15px;
+  margin-bottom: 10px;
+  color: rgba(0, 0, 0, 0.61);
+  margin-top: 20px;
+}
+
+.buttonWithText {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media screen and (max-width: 999px) {
+  .pultWrapper {
+    top: 400px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .pultWrapper {
+    top: 640px;
+  }
+}

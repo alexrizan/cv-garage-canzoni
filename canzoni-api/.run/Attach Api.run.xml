@@ -1,0 +1,6 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Attach Api" type="ChromiumRemoteDebugType" factoryName="Chromium Remote" port="9095" restartOnDisconnect="true">
+    <mapping url="/api" local-file="$PROJECT_DIR$/canzoni-api" />
+    <method v="2" />
+  </configuration>
+</component>

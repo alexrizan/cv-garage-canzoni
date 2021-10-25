@@ -1,0 +1,61 @@
+.inputField {
+  width: 100%;
+  position: relative;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.inputField input {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #9e9e9e;
+  border-radius: 0;
+  outline: none;
+  height: 3rem;
+  width: 100%;
+  font-size: 16px;
+  line-height: 1.15;
+  margin: 0 0 8px 0;
+  padding: 0;
+  box-shadow: none;
+  box-sizing: content-box;
+  transition: box-shadow .3s, border .3s;
+}
+
+.inputField input:focus {
+  border-bottom: 1px solid #26a69a;
+  box-shadow: 0 1px 0 0 #26a69a;
+}
+
+.inputField input::placeholder {
+  color: #9797bb;
+}
+
+.label {
+  color: #9797bb;
+  font-size: 0.8em;
+}
+
+.iconLight {
+  color: rgb(142 158 157);
+  width:36px;
+  height: 36px;
+  text-align: center;
+  border-radius: 50%;
+  background-color: rgba(255,255,255,0.12);
+}
+
+
+.iconWrapper i{
+  margin-left: 15px;
+  font-size: 2.9em;
+  cursor: pointer;
+}
+
+.iconWrapper i:hover {
+  color: #26a69a;
+}
+
+.suggestionsContainer {
+  position: absolute;
+}

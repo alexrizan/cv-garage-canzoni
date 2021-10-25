@@ -1,0 +1,22 @@
+version: "3"
+services:
+  api:
+    build: ./canzoni-api
+    env_file: ./canzoni-api/.env
+    environment:
+      CHOKIDAR_USEPOLLING: "true"
+    volumes:
+      - ./canzoni-api:/api
+    ports:
+      - "9090:9090"
+      - "9095:9095"
+    container_name: canzoni-api
+  client:
+    build: ./canzoni-client
+    environment:
+      CHOKIDAR_USEPOLLING: "true"
+    volumes:
+      - ./canzoni-client:/client
+    ports:
+      - "3000:3000"
+    container_name: canzoni-client

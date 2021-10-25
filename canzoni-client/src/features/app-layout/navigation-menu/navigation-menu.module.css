@@ -1,0 +1,30 @@
+.menuContainer {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+/*.logoWrapper {*/
+/*}*/
+
+/*.img {*/
+/*  background-image: url('/src/imgs/logo.webp');*/
+/*  background-repeat: no-repeat;*/
+/*  background-size: cover;*/
+/*  border: 0;*/
+/*}*/
+
+.login {
+  display: flex;
+}
+
+.authName {
+  color: rgb(164 151 195);
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.authNotice {
+  color: #ee6e73;
+}

@@ -1,0 +1,10 @@
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+}
+
+.infoItem {
+  font-weight: bold;
+  font-size: 1.1em;
+}

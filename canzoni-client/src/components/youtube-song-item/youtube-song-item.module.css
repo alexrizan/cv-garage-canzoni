@@ -1,0 +1,48 @@
+.itemWrapper {
+  /*box-shadow: 0 3px 3px 0 rgba(0,0,0,0.14), 0 1px 7px 0 rgba(0,0,0,0.12), 0 3px 1px -1px rgba(0,0,0,0.20);*/
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+  width: 100%;
+  transition: transform ease-out 0.5s;
+}
+
+.itemWrapper:hover {
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 4px -5px 10px 1px rgba(0,0,0,0.34);
+}
+
+.imageContainer {
+  width: 100%;
+  position: relative;
+}
+
+.image {
+  width: 100%;
+}
+
+.imageBlur {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  /*box-shadow: inset 0px 0px 10px 20px white;*/
+}
+/*320 * 180*/
+
+.badQualityWrapper {
+  margin: 10px;
+  height: 100px;
+  width: 100px;
+  background: #ee6e73;
+  border-radius: 50%;
+  border: 5px solid #ffffff;
+}
+
+.badQualityText {
+  font-size: 3em;
+  font-weight: bold;
+  color: white;
+}

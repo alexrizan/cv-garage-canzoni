@@ -1,0 +1,16 @@
+.center-all div.input-field {
+  width: 100%;
+}
+
+.loaderWrapper {
+  max-height: 700px;
+  min-height: 700px;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 768px) {
+  .loaderWrapper {
+    max-height: 500px;
+    min-height: 500px;
+  }
+}

@@ -1,0 +1,20 @@
+.switcher{
+  position: relative;
+  width: 100%;
+}
+
+.centerAll {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.centerVertical {
+  display: flex;
+  align-items: center;
+}
+
+.centerHorizontal{
+  display: flex;
+  justify-content: center;
+}
